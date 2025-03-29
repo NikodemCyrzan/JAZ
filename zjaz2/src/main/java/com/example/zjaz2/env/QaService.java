@@ -6,7 +6,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class QaService implements HandlerServiceInterface {
     @Override
-    public void printMessage() {
-        System.out.println("Hello from QA");
+    public String printMessage() {
+        return "Hello from QA";
     }
 }

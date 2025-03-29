@@ -4,9 +4,9 @@ import com.example.zjaz2.HandlerServiceInterface;
 import org.springframework.stereotype.Service;
 
 @Service
-public class ProdService implements HandlerServiceInterface {
+public class StagingService implements HandlerServiceInterface {
     @Override
     public String printMessage() {
-        return "Hello from Prod";
+        return "Hello from Staging";
     }
 }

@@ -7,7 +7,7 @@ import org.springframework.context.annotation.Configuration;
 @ConfigurationProperties(prefix = "custom")
 public class Config {
     public String loginUrl;
-    public String environment;
+    public String environment = "dev";
     public Credentials credentials;
 
     public void setLoginUrl(String loginUrl) {
